@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body{
+  background-image:url(../images/kiryuin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header{
+    width:980px;
+    height:284px;
+    background-color:rgb(0, 255, 255,0);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-img{
+    margin: 40px 0 15px 0;
+    /* display: block; imgにmarginが効くようになる
+    margin: 0 auto;
+    */
+}
+
+.heading-title{
+    font-size: 35px;
+    color:rgb(22, 22, 23);
+    font-weight: 900;
+
+}
+
+
+    /* font-weight:900; 
+    font-size:30px;
+    border-radius:30px;
+    text-align: center;
+    */
+
+
+.main-contents{
+    width:780px;
+    background-color: rgba(255, 255, 255, 0.573); 
+    margin: 0 auto;
+    padding:50px 100px;
+    box-shadow:0 0 20px #f7ee01;
+}
+
+.heading-contents{
+    font-size:30px;
+    color:azure;
+    background-color: #fc7404;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius:40px;
+    margin:0 0 15px 0;
+}
+
+.tohken{
+    width:780px;
+    margin:0 20px 0 0;
+}
+
+.youzitu{
+    width:780px;
+    margin:0 20px 0 0 ;
+}
+
+.hochi{
+    width: 780px;
+}
+
+.heading-profile{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.profile-txt{
+    font-size: 16px;
+    margin: 0 0 35px 0;
+}
+
+.exp-txt{
+    font-size:20px;
+    margin:100px 0 100px 0;
+}
+
+.pagetop{
+    text-align: right;
+    display: block;
+}
+
+.footer{
+    width:980px;
+    height:80px;
+    background-color: rgb(138, 43, 226,0);
+    margin: 0 auto;
+    /* 1行テキストの縦位置を中央にする 
+       ボックスのheightと同じpxにする。
+    */
+    Line-height:80px;
+    text-align: center;
+    color:aliceblue;
+}
